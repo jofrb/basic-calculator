@@ -1,7 +1,8 @@
+import 'package:calculator/landing_page.dart';
 import 'package:flutter/material.dart';
 
 void main(){
   runApp(new MaterialApp(
-    home: new Material(color: Colors.red)
+    home: new LandingPage()
   ));
 }
